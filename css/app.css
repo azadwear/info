@@ -6,3 +6,15 @@
     justify-content: center !important;
     display: flex !important;
 }
+
+.azad-info-link {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+
+.azad-info-icon {
+    margin-right: 6px;
+}
