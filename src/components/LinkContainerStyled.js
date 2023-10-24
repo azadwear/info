@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const LinkWrapper = styled.div`
 
 width: 100%;
-margin: 25px 0px;
+margin: 10px 0px;
 position: relative;
 
 &:hover{

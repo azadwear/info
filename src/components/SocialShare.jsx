@@ -7,7 +7,7 @@ import github from "../assets/images/Social icon.svg"
 function SocialShare() {
   return (
     <Social>
-        <a href="callto:96179105374"><i class="bi bi-large bi-telephone-fill"></i></a>
+        <a href="callto:96101500711"><i class="bi bi-large bi-telephone-fill"></i></a>
         {/* <a href=""><img src={slack} alt="" /></a> */}
     </Social>
   )

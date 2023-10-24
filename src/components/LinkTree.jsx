@@ -25,11 +25,12 @@ function LinkTree() {
 
           <div className="links">
         
-          <LinkContainer id = "btn__zuri" text="Instagram" href="https://instagram.com/azadwears" icon="bi bi-instagram"/>
-          <LinkContainer id = "books" text="Facebook" href="https://facebook.com/azadwears" title={bookSubText} icon="bi bi-facebook"/>
-          <LinkContainer id = "books" text="Twitter" href="https://twitter.com/azadwears" title={bookSubText} icon="bi bi-twitter"/>
-          <LinkContainer id = "books" text="Shop" href="https://azadwear.com" title={bookSubText} icon="bi bi-cart"/>
-          <LinkContainer id = "books" text="Whatsapp" href="https://wa.me/96179105374" title={bookSubText} icon="bi bi-whatsapp"/>
+          <LinkContainer id = "btn__zuri" text="Instagram" href="https://instagram.com/azadwears" icon="bi bi-instagram azad-info-icon" linkClass="azad-info-link"/>
+          <LinkContainer id = "books" text="Facebook" href="https://facebook.com/azadwears" title={bookSubText} icon="bi bi-facebook azad-info-icon" linkClass="azad-info-link"/>
+          <LinkContainer id = "books" text="Twitter" href="https://twitter.com/azadwears" title={bookSubText} icon="bi bi-twitter azad-info-icon" linkClass="azad-info-link"/>
+          <LinkContainer id = "books" text="Shop" href="https://azadwear.com" title={bookSubText} icon="bi bi-cart azad-info-icon" linkClass="azad-info-link"/>
+          <LinkContainer id = "books" text="About Us" href="https://azadwear.com/pages/about" title={bookSubText} icon="bi bi-info-circle azad-info-icon" linkClass="azad-info-link"/>
+          <LinkContainer id = "books" text="Whatsapp" href="https://wa.me/96179105374" title={bookSubText} icon="bi bi-whatsapp azad-info-icon" linkClass="azad-info-link"/>
           {/* <LinkContainer id = "books" text="Call Us" href="callto:96179105374" title={bookSubText} icon="bi bi-phone"/> */}
 
           <Link to={"/linktree-react/contact"} style={{textDecoration:"none"}}>
